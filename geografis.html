@@ -1,136 +1,107 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geografis - Pandeglang</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-        }
-        header {
-            background-color: #00d2ff;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.1em;
-            font-weight: 300;
-        }
-        nav {
-            background-color: #00c6b5;
-            padding: 15px 40px;
-            display: flex;
-            gap: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 1em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            display: flex;
-            padding: 20px 40px;
-            gap: 20px;
-        }
-        .main-content {
-            flex: 7;
-        }
-        .main-content h2 {
-            color: #28a745;
-            margin-top: 0;
-        }
-        .main-content img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 20px;
-            border-radius: 4px;
-        }
-        .main-content p, .main-content ul {
-            color: #333;
-            line-height: 1.6;
-        }
-        .sidebar {
-            flex: 3;
-        }
-        .sidebar-box {
-            border: 1px solid #ddd;
-            padding: 20px;
-            text-align: center;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        .sidebar-box h3 {
-            color: #28a745;
-            margin-top: 0;
-        }
-        .sidebar-box p {
-            font-size: 0.9em;
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .sidebar-box img {
-            max-width: 120px;
-            height: auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geografis - Pandeglang</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet"
+  >
 </head>
 <body>
-    <header>
-        <h1>Pandeglang</h1>
-        <p>Kabupaten di ujung barat provinsi Banten, sekaligus rumah bagi badak Jawa</p>
-    </header>
 
-    <nav>
-        <!-- Pastikan nama file href sesuai dengan file yang temanmu buat -->
-        <a href="index.html">Sejarah</a>
-        <a href="geografis.html">Geografis</a>
-        <a href="index.html">Wisata</a>
-        <a href="https://www.dicoding.com/users/crustacea/academies">Kontak</a>
-    </nav>
+  <header class="jumbotron">
+    <h1>Pandeglang</h1>
+    <p>Kabupaten di ujung barat provinsi Banten, sekaligus rumah bagi badak Jawa</p>
+  </header>
 
-    <div class="container">
-        <main class="main-content">
-            <h2>Geografis</h2>
-            <!-- Pastikan menaruh file gambar di folder yang sama dengan file html ini -->
-            <img src="https://petatematikindo.wordpress.com/wp-content/uploads/2013/09/administrasi-pandeglang-a1.jpg" alt="Peta atau Lanskap Pandeglang">
-            <p>
-                Secara geografis, Kabupaten Pandeglang terletak di antara 6° 21' - 7° 10' Lintang Selatan dan 104° 48' - 106° 11' Bujur Timur. Kabupaten ini berada di ujung paling barat Pulau Jawa. Luas wilayah Kabupaten Pandeglang mencapai sekitar 2.747 kilometer persegi, menjadikannya salah satu kabupaten terluas di Banten.
-            </p>
-            <p>
-                Batas wilayah administrasi Kabupaten Pandeglang adalah sebagai berikut:
-            </p>
-            <ul>
-                <li><strong>Utara:</strong> Berbatasan dengan Kabupaten Serang.</li>
-                <li><strong>Timur:</strong> Berbatasan dengan Kabupaten Lebak.</li>
-                <li><strong>Selatan:</strong> Dibatasi oleh Samudra Hindia.</li>
-                <li><strong>Barat:</strong> Dibatasi oleh Selat Sunda.</li>
-            </ul>
-            <p>
-                Kondisi topografi di wilayah ini cukup bervariasi. Wilayah tengah dan timur didominasi oleh dataran tinggi dan pegunungan, termasuk Gunung Karang dan Gunung Pulosari. Sementara itu, bagian selatan dan pesisir barat merupakan dataran rendah yang landai, tempat di mana Taman Nasional Ujung Kulon berada.
-            </p>
-        </main>
+  <!-- Navigasi -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Sejarah</a></li>
+      <li><a href="geografis.html">Geografis</a></li>
+      <li><a href="wisata.html">Wisata</a></li>
+      <li><a href="https://github.com/martin0102-jpg/PEM-WEB">Kontak</a></li>
+    </ul>
+  </nav>
 
-        <aside class="sidebar">
-            <div class="sidebar-box">
-                <h3>Kabupaten Pandeglang</h3>
-                <p>Kabupaten Pandeglang rumah bagi Taman Nasional Ujung Kulon</p>
-                <img class="gambar-profile" src="11_ Pandeglang.jpg" alt="Lambang Kabupaten Pandeglang">
-            </div>
-        </aside>
+  <main>
+    <div id="content">
+      <article class="card">
+        <h2>Geografis</h2>
+        <img 
+          src="https://petatematikindo.wordpress.com/wp-content/uploads/2013/09/administrasi-pandeglang-a1.jpg" 
+          alt="Peta Administrasi Kabupaten Pandeglang" 
+          class="feature-image"
+        >
+        <p>
+          Secara geografis, Kabupaten Pandeglang terletak di antara 6° 21' - 7° 10' Lintang Selatan dan 104° 48' - 106° 11' Bujur Timur. Kabupaten ini berada di ujung paling barat Pulau Jawa. Luas wilayah Kabupaten Pandeglang mencapai sekitar 2.747 kilometer persegi, menjadikannya salah satu kabupaten terluas di Banten.
+        </p>
+        
+        <section>
+          <h3>Batas Wilayah</h3>
+          <p>Batas wilayah administrasi Kabupaten Pandeglang adalah sebagai berikut:</p>
+          <ul>
+            <li><strong>Utara:</strong> Berbatasan dengan Kabupaten Serang.</li>
+            <li><strong>Timur:</strong> Berbatasan dengan Kabupaten Lebak.</li>
+            <li><strong>Selatan:</strong> Dibatasi oleh Samudra Hindia.</li>
+            <li><strong>Barat:</strong> Dibatasi oleh Selat Sunda.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Topografi</h3>
+          <p>
+            Kondisi topografi di wilayah ini cukup bervariasi. Wilayah tengah dan timur didominasi oleh dataran tinggi dan pegunungan, termasuk Gunung Karang dan Gunung Pulosari. Sementara itu, bagian selatan dan pesisir barat merupakan dataran rendah yang landai, tempat di mana Taman Nasional Ujung Kulon berada.
+          </p>
+        </section>
+      </article>
     </div>
+
+    <aside>
+      <article class="profile card">
+        <header>
+          <h2>Kabupaten Pandeglang</h2>
+          <p>Kabupaten Pandeglang rumah bagi Taman Nasional Ujung Kulon</p>
+          <figure>
+            <img class="gambar-profile" src="11_ Pandeglang.jpg" alt="Lambang Kabupaten Pandeglang">
+          </figure>
+        </header>
+
+        <section>
+          <h3>Informasi lainnya</h3>
+          <table>
+            <tr>
+              <th>Negara</th>
+              <td>Indonesia</td>
+            </tr>
+            <tr>
+              <th>Hari jadi</th>
+              <td>12 April 1874</td>
+            </tr>
+            <tr>
+              <th>Bahasa daerah</th>
+              <td>Sunda</td>
+            </tr>
+            <tr>
+              <th>Kode telepon</th>
+              <td>+62 253</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Landing page web 2026. crustacea</p>
+  </footer>
+
 </body>
 </html>
